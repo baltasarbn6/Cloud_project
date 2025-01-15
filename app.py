@@ -80,14 +80,14 @@ features = {
     "Income": st.selectbox(
         "Quel est votre niveau de revenu ?", 
         [
-            "Moins de 10 000€ par an",
-            "Entre 10 000€ et 15 000€ par an",
-            "Entre 15 000 € et 20 000€ par an",
-            "Entre 20 000 € et 25 000€ par an",
-            "Entre 25 000 € et 35 000€ par an",
-            "Entre 35 000 € et 50 000€ par an",
-            "Entre 50 000 € et 75 000€ par an",
-            "Plus de 75 000 € par an"
+            "Less than $10,000",
+            "Less than $15,000 ($10,000 to less than $15,000)",
+            "Less than $20,000 ($15,000 to less than $20,000)",
+            "Less than $25,000 ($20,000 to less than $25,000)",
+            "Less than $35,000 ($25,000 to less than $35,000)",
+            "Less than $50,000 ($35,000 to less than $50,000)",
+            "Less than $75,000 ($50,000 to less than $75,000)",
+            "$75,000 or more"
         ]
     )
 }
